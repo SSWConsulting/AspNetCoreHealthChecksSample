@@ -1,8 +1,34 @@
 ﻿:root {
-    --primaryColor: #68217a;
-    --secondaryColor: #f4f4f4;
-    --bgMenuActive: #8e47a0;
-    --bgButton: #68217a;
-    --logoImageUrl: url('https://www.ssw.com.au/ssw/logo/ssw/images/ssw-logo.png');
-    --bgAside: var(--primaryColor);
+    --primaryColor: #666666;
+    --secondaryColor: #cc4141;
+    --darkColor: #000000;
+    --midDarkColor: #2f313a;
+    --grayColor: #444444;
+    --midGrayColor: #cccccc;
+    --lightColor: #eeeeee;
+    --dangerColor: #CC4141;
+    --warningColor: #F7941D;
+    --successColor: #8DC63F;
+
+    --bgMain: var(--lightColor);
+    --bgSecondary: #ffffff;
+    --fcNegative: #ffffff;
+    --fcBase: var(--grayColor);
+    --bgMenuActive: #666666;
+    --bcMenuActive: var(--secondaryColor);
+
+    --bgButton: #333333;
+
+    --logoImageUrl: url('https://www.ssw.com.au/ssw/logo/ssw/Images/ssw-logo-square-white.png');
+    --bgAside: #333333;
+
+    --bcInput: var(--midGrayColor);
+    --bcInputHover: var(--secondaryColor);
+    --bgInputHover: var(--lightColor);
+    --fcInputHover: var(--secondaryColor);
+
+    --bcTable: var(--lightColor);
+    --bgTable: var(--bgSecondary);
+    --bgTableSecondary: var(--midGrayColor);
+    --bgTableButton: var(--secondaryColor);
 }
